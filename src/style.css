@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  background-color: #fff;
+  box-shadow: 5px 10px 8px 10px #888;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 2px solid #d4d2d2;
+}
+
+.header-name {
+  font-size: 20px;
+}
+
+.reload-image {
+  width: 20px;
+  height: 20px;
+}
+
+.to-do-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.add {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 2px solid #d4d2d2;
+}
+
+.enter-image {
+  width: 20px;
+  height: 20px;
+}
+
+::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+.add-input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.desc {
+  width: 100%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+.items {
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px solid #d4d2d2;
+  padding: 10px;
+}
+
+.item-desc {
+  display: flex;
+  gap: 15px;
+}
+
+.humberger-image {
+  width: 30px;
+  height: 30px;
+}
+
+.trash-image {
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+
+.trash-image-show {
+  display: inline;
+}
+
+.more-image-hide {
+  display: none;
+}
+
+.clear {
+  width: 100%;
+}
+
+.btn-clear {
+  width: 100%;
+  font-size: 18px;
+  color: #777575;
+  height: 50px;
+}
+
+.selected {
+  background-color: #fffec4;
+}
+
+.completed {
+  text-decoration: line-through;
+}
